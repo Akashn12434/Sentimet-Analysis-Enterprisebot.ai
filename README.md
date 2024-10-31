@@ -29,3 +29,4 @@ This project is broken down into three main steps:
 - **Sentiment Analysis:** TextBlob for polarity-based sentiment scoring
 
 ## Project Structure
+sentiment_project/ │ ├── app.py # Main application runner ├── scraper.py # Script to scrape reviews from Amazon ├── sentiment_analysis.py # Script to perform sentiment analysis on reviews ├── setup_database.py # Script to create the SQLite database ├── database.db # SQLite database storing reviews data └── README.md # Project documentation
